@@ -83,6 +83,7 @@
 
 
 
+
 // #include<stdio.h>
 
 // int main(){
@@ -90,6 +91,19 @@
 //   const  int num = 10;
 
 //     // num = 20;
+
+
+//     printf("%d\n",num);
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//   const  int num;  // same line me insilization
+
+//     // num = 20; // Not ok
 
 
 //     printf("%d\n",num);
@@ -109,6 +123,7 @@
 
 
 //     printf("%d\n",num);
+//     // printf("%d\n",&num);
 // }
 
 
@@ -126,9 +141,10 @@
 // }
 
 
-
+// Micro
 
 // #include<stdio.h>
+
 // #define num 15.04
 
 // void main(){
@@ -333,3 +349,348 @@
 
 
 // }
+
+
+
+
+// Binary Operator
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 10;
+//     int b = 5;
+
+//     int result = a&b;
+
+
+//     printf("%d\n",result);
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 10;
+//     int b = 5;
+
+//     int result = a|b;
+
+
+//     printf("%d\n",result);
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 10;
+//     int b = 5;
+
+//     int result = a^b;
+
+
+//     printf("%d\n",result);
+// }
+
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 10;
+  
+//   int result =  a<<2;
+
+
+//     printf("%d\n",result);
+// }
+
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 10;
+  
+//   int result =  a>>2;
+
+
+//     printf("%d\n",result);
+// }
+
+
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 100;
+  
+//   int result =  ~a;
+
+
+//     printf("%d\n",result);
+// }
+
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 100;
+  
+//     a = a+5;  // 100 + 5  => 105
+
+
+//     printf("%d\n",a);
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int a = 100;
+  
+//     // a = a+5;  // 100 + 5  => 105
+
+//     a += 5;
+
+
+//     printf("%d\n",a);
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int age = 10;
+
+//     (age>=18)? printf("Welcome Bhai, You are eligible!"): printf("Sorry Bhai, Abhi bache ho!");
+   
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+    
+//     int age;
+//     printf("Please enter your age !");
+//     scanf("%d",&age);
+
+//     if(age>=18){
+//         printf("You can Watch Mirjapur web series!");
+//     }
+//     else{
+//           printf("Sorry, You watch cartoon movie");
+//     }
+// }
+
+
+
+
+// #include<stdio.h>
+
+// int main(){
+    
+//     int marks;
+//     printf("Please enter your Marks !");
+//     scanf("%d",&marks);
+
+//     if(age>=18){
+//         printf("You can Watch Mirjapur web series!");
+//     }
+//     else{
+//           printf("Sorry, You watch cartoon movie");
+//     }
+// }
+
+
+//Switch case
+
+
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Please enter value of a : ");
+//     scanf("%d",&a);
+
+//    getchar();
+
+//     char op;
+//     printf("please enter operator :");
+//     scanf("%c",&op);  
+
+//     int b;
+//     printf("Please enter value of b : ");
+//     scanf("%d",&b);
+
+//     switch(op){
+//         case '+': 
+//                 printf("Addition : %d\n",a+b);
+//                 break;
+//         case '-': 
+//                 printf("Sub : %d\n",a-b);
+//                 break;
+//         case '/': 
+//                 printf("Divide : %d\n",a/b);
+//                 break;
+//         case '*': 
+//                 printf("Multiply : %d\n",a*b);
+//                 break;
+//         case '%': 
+//                 printf("Remainder : %d\n",a%b);
+//                 break;
+
+//         default :
+//                 printf("Please enter valid operator!");
+//     }
+// }
+
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Please enter value of a : ");
+//     scanf("%d",&a);
+
+//     char ch;
+
+//     printf("Please enter single character :");
+//     scanf("%c", &ch);
+
+
+//     printf("Output : %d\n",a);
+//     printf("Output : %c",ch);
+
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     char ch;
+
+//     printf("Please enter single character :");
+//     scanf("%c", &ch);
+
+//     printf("Output : %c",ch);
+
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Please enter value of a : ");
+//     scanf("%d",&a);
+
+//     char ch;
+//     getchar();
+//     printf("Please enter single character :");
+//     scanf("%c", &ch);
+
+
+//     printf("Output : %d\n",a);
+//     printf("Output : %c",ch);
+
+// }
+
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Please enter value of a : ");
+//     scanf("%d",&a);
+
+//    getchar();
+
+//     char op;
+//     printf("please enter operator :");
+//     scanf("%c",&op);  
+
+//     int b;
+//     printf("Please enter value of b : ");
+//     scanf("%d",&b);
+
+//     switch(op){
+//         case '+': 
+//                 printf("Addition : %d\n",a+b);
+//                 break;
+//         case '-': 
+//                 printf("Sub : %d\n",a-b);
+//                 break;
+//         case '/': 
+//                 printf("Divide : %d\n",a/b);
+//                 break;
+//         case '*': 
+//                 printf("Multiply : %d\n",a*b);
+//                 break;
+//         case '%': 
+//                 printf("Remainder : %d\n",a%b);
+//                 break;
+
+//         default :
+//                 printf("Please enter valid operator!");
+//     }
+// }
+
+
+
+
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Please enter value of a : ");
+    scanf("%d",&a);
+
+   getchar();
+
+    int op;
+    printf("please enter case number :");
+    scanf("%d",&op);  
+
+    int b;
+    printf("Please enter value of b : ");
+    scanf("%d",&b);
+
+    switch(op){
+        case 1: 
+                printf("Addition : %d\n",a+b);
+                break;
+        case 2: 
+                printf("Sub : %d\n",a-b);
+                break;
+        case 3: 
+            
+                printf("Divide : %0.1f\n",(float)a/b);
+                break;
+        case 4: 
+                printf("Multiply : %d\n",a*b);
+                break;
+        case 5: 
+                printf("Remainder : %d\n",a%b);
+                break;
+
+        default :
+                printf("Please enter valid operator!");
+    }
+}
+
