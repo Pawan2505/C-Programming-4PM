@@ -655,42 +655,196 @@
 
 
 
-#include<stdio.h>
-int main(){
-    int a;
-    printf("Please enter value of a : ");
-    scanf("%d",&a);
+// #include<stdio.h>
+// int main(){
+//     int a;
+//     printf("Please enter value of a : ");
+//     scanf("%d",&a);
 
-   getchar();
+//    getchar();
 
-    int op;
-    printf("please enter case number :");
-    scanf("%d",&op);  
+//     int op;
+//     printf("please enter case number :");
+//     scanf("%d",&op);  
 
-    int b;
-    printf("Please enter value of b : ");
-    scanf("%d",&b);
+//     int b;
+//     printf("Please enter value of b : ");
+//     scanf("%d",&b);
 
-    switch(op){
-        case 1: 
-                printf("Addition : %d\n",a+b);
-                break;
-        case 2: 
-                printf("Sub : %d\n",a-b);
-                break;
-        case 3: 
+//     switch(op){
+//         case 1: 
+//                 printf("Addition : %d\n",a+b);
+//                 break;
+//         case 2: 
+//                 printf("Sub : %d\n",a-b);
+//                 break;
+//         case 3: 
             
-                printf("Divide : %0.1f\n",(float)a/b);
-                break;
-        case 4: 
-                printf("Multiply : %d\n",a*b);
-                break;
-        case 5: 
-                printf("Remainder : %d\n",a%b);
-                break;
+//                 printf("Divide : %0.1f\n",(float)a/b);
+//                 break;
+//         case 4: 
+//                 printf("Multiply : %d\n",a*b);
+//                 break;
+//         case 5: 
+//                 printf("Remainder : %d\n",a%b);
+//                 break;
 
-        default :
-                printf("Please enter valid operator!");
-    }
-}
+//         default :
+//                 printf("Please enter valid operator!");
+//     }
+// }
 
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//         for(int number = 10; number <=50; number++){
+//                 printf("%d\n",number);
+//         }
+// }
+
+
+
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//         int number = 10;
+
+//         for(; number <=50; number++){
+//                 printf("%d\n",number);
+//         }
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//         int number = 10;
+
+//         for(; number <=50;){
+//                 printf("%d\n",number);
+
+//                  number++;
+//         }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//        // while loop 
+
+//        int number = 1;
+
+//        while(number<= 10){
+//         printf("%d\n",number);
+
+//         number++;
+//        }
+// }
+
+// #include<stdio.h>  
+
+// int main(){   
+
+// int i=1, number, b=9 ;  
+
+// printf("Enter a number: "); 
+
+// scanf("%d",&number);  
+
+// while(i<=10){   
+
+// printf("%d \n",(number*i));   //2*3
+
+// i++; //4
+
+// }    
+// return 0;  
+// }   
+
+
+
+// Do while loop
+
+
+// #include<stdio.h>
+// int main(){
+
+//         int number = 11;
+
+
+//         do{
+
+//                 printf("%d\n",number);  //11
+//                 number++; //12
+
+//         }while(number<=10);
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//         int number = 11;
+
+
+//         do{
+
+//                 printf("%d\n",number);  //11,10
+//                 number--; //9
+
+//         if(number == 0){
+                
+//                 break;
+//         }
+//         }while(number<=10);
+// }
+
+
+// Home Work :
+
+// https://docs.google.com/document/d/14OwYc9Tvhn2ftvJ_P4GX32X4N4tuYdsi4_b69VEfXi4/edit?tab=t.0
+// https://docs.google.com/document/d/1DJ5UM0LvqL3Rh2M2fnQBDIuAQV2TMk7jDmgQeOCkY6Q/edit?tab=t.0
+// https://docs.google.com/document/d/1hga_FYEkpPQdbIaLK3weX56zhvnsVTp9Lvd_3B2g_as/edit?tab=t.0
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//         for(int i = 1; i <= 10; i++){
+
+//                 if(i == 5){
+//                         break;
+//                 }
+                
+//                 printf("%d\n",i);
+
+        
+//         }
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//         for(int i = 1; i <= 10; i++){
+
+//                 if(i == 5){
+
+//                         continue;
+//                 }
+                
+//                 printf("%d\n",i);
+
+        
+//         }
+// }
+
+
+// https://docs.google.com/document/d/1KmkQ9ndbuI1JTgr0FUP06kGZatzLDQcPAMqarlZwVTc/edit?tab=t.0
