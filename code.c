@@ -848,3 +848,338 @@
 
 
 // https://docs.google.com/document/d/1KmkQ9ndbuI1JTgr0FUP06kGZatzLDQcPAMqarlZwVTc/edit?tab=t.0
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // Outer loop -> row
+
+//     for(int row = 1; row <= 4; row++){
+
+//         // Inner Loop -> column
+//         for(int col = 1; col <= 4; col++){
+
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // Outer loop -> row
+
+//     for(int row = 1; row <= 4; row++){
+
+//         if(row == 1 || row == 4){
+//             printf("****\n");
+//         }
+//         else{
+//             printf("*  *\n");
+//         }
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // row
+
+//     for(int row = 1; row <= 4; row++){
+
+//         // Space
+
+//         for(int space = 1; space<row; space++){
+//             printf(" ");
+//         }
+
+//         // Star
+
+//         for(int star = 1; star<=4; star++){
+//             printf("*");
+//         }
+
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // row
+//     for(int row = 1; row<=4; row++){
+
+//         // space
+
+//         for(int space = 1; space<=4-row; space++){
+//             printf(" ");
+//         }
+
+//         // star
+
+//         for(int star = 1; star < 2*row; star++){
+//             printf("*");
+//         }
+
+//         printf("\n");
+
+//     }
+// }
+
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // row
+//     for(int row = 1; row<=4; row++){
+
+//         // space
+
+//         for(int space = 1; space<=4-row; space++){
+//             printf(" ");
+//         }
+
+//         // star
+
+//         for(int star = 1; star < 2*row; star++){
+            
+           
+
+//             if(row == 2 && star == 2){
+//                 printf(" ");
+//             }
+//             else if(row == 3 && (star == 2 || star == 3 || star == 4) ){
+//                  printf(" ");
+//             }
+            
+//             else{
+//                  printf("*");
+//             }
+
+            
+//         }
+
+//         printf("\n");
+
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // row
+
+//     for(int i = 1; i <= 4; i++){
+
+//         // col
+
+//         for(int j = 1; j <= 4; j++){
+
+//             printf("1");
+//         }
+
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     // row
+
+//     for(int i = 1; i <= 4; i++){
+
+//         // col
+
+//         for(int j = 1; j <= 4; j++){
+
+//             printf("%d",i);
+//         }
+
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     // row
+
+//     for(int row = 1; row <=4; row++){
+
+//         // col
+
+//         for(int col = 1; col <=3; col++){
+
+//             if(row == 2 && col == 2){
+//                 printf("1");
+//             }
+
+//             else if(row == 3 && col == 2){
+//                 printf("2");
+//             }
+//             else{
+//                 printf("3");
+//             }
+
+           
+//         }
+//          printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a =1;
+//     for(int row=0;row<=4 ;row++)
+//     {
+//         for(int num =0;num<row;num++)
+//         {
+           
+//             printf("%d",a);
+//              a++;
+//         }
+//             printf("\n");
+//     }
+// }
+
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     int rows = 4;
+//     int n = 1;
+
+//     // outer
+//     for (int i = 0; i < rows; i++) {
+
+//         // innter
+//         for (int j = 0; j <= i; j++) {
+//             printf("%d ", n++);
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
+
+// #include <stdio.h>
+
+// int main() {
+//     int counter = 10; 
+    
+ 
+//     for (int row = 4; row >= 1; row--) {  
+//         for (int col = 1; col <= row; col++) {
+//             printf("%d", counter); 
+//             counter--; 
+//         }
+//         printf("\n"); 
+//     }
+    
+//     return 0;
+// }
+
+
+
+// Array 
+
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[5];
+
+//     arr[0] = 10;
+//     arr[1] = 20;
+//     arr[2] = 30;
+//     arr[3] = 40;
+//     arr[4] = 50;
+
+
+//     printf("%d\n",arr[0]);
+//     printf("%d\n",arr[1]);
+//     printf("%d\n",arr[2]);
+//     printf("%d\n",arr[3]);
+//     printf("%d\n",arr[4]);
+// }
+
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[5] = {10,20,30,40,50};
+
+
+//     printf("%d\n",arr[0]);
+//     printf("%d\n",arr[1]);
+//     printf("%d\n",arr[2]);
+//     printf("%d\n",arr[3]);
+//     printf("%d\n",arr[4]);
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[5] = {10,20,30,40,50};
+
+
+//    for(int i = 0; i < 5; i++){
+//     printf("%d\n", arr[i]);
+//    }
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[5] = {10,20,30,40,50};
+
+
+//    for(int i = 0; i < 5; i++){
+//     printf("%d ", arr[i]);
+//    }
+// }'
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[5];
+
+
+//     for(int i = 0; i < 5; i++){
+        
+//         printf("Enter element at %d index ",i);
+//         scanf("%d",&arr[i]);
+//    }
+
+//     printf("Array : \n");
+
+//    for(int i = 0; i < 5; i++){
+//     printf("%d ", arr[i]);
+//    }
+// }
+
