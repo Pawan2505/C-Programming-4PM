@@ -1182,4 +1182,27 @@
 //     printf("%d ", arr[i]);
 //    }
 // }
+#include<stdio.h>
+int main(){
+
+    int arr[]  = {10,20,30,40,50,60};
+
+    // Size of Array
+
+    // sizeof()
+
+    printf("%d\n",sizeof(arr));
+    printf("%d\n",sizeof(arr[0]));
+
+
+    int length = sizeof(arr)/sizeof(arr[0]);
+
+    printf("Length of array : %d",length);
+
+
+}
+
+
+// https://docs.google.com/document/d/1LUQu_OQAwEJhS7tVKvNWnEkOKiG-eizjaQ3pjBYXaIg/edit?tab=t.0
+
 
