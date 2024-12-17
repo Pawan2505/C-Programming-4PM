@@ -1182,27 +1182,190 @@
 //     printf("%d ", arr[i]);
 //    }
 // }
-#include<stdio.h>
-int main(){
-
-    int arr[]  = {10,20,30,40,50,60};
-
-    // Size of Array
-
-    // sizeof()
-
-    printf("%d\n",sizeof(arr));
-    printf("%d\n",sizeof(arr[0]));
 
 
-    int length = sizeof(arr)/sizeof(arr[0]);
+// #include<stdio.h>
+// int main(){
 
-    printf("Length of array : %d",length);
+//     int arr[]  = {10,20,30,40,50,60};
+
+//     // Size of Array
+
+//     // sizeof()
+
+//     printf("%d\n",sizeof(arr));
+//     printf("%d\n",sizeof(arr[0]));
 
 
-}
+//     int length = sizeof(arr)/sizeof(arr[0]);
+
+//     printf("Length of array : %d",length);
+
+
+// }
 
 
 // https://docs.google.com/document/d/1LUQu_OQAwEJhS7tVKvNWnEkOKiG-eizjaQ3pjBYXaIg/edit?tab=t.0
 
 
+// #include<stdio.h>
+// int main(){
+
+//     int arr[3][4];
+
+//     arr[0][0] = 11; 
+//     arr[0][1] =  12; 
+//     arr[0][2] =  13;
+//     arr[0][3] =  14;
+//     arr[1][0] =15; 
+//     arr[1][1] = 16;
+//     arr[1][2] = 17;
+//     arr[1][3] = 18;
+//     arr[2][0] =  19;
+//     arr[2][1] = 20;
+//     arr[2][2] =21; 
+//     arr[2][3] = 22;
+
+
+//   printf("%d ",arr[0][0]);
+//   printf("%d ",arr[0][1]);
+//   printf("%d ",arr[0][2]);
+//   printf("%d\n",arr[0][3]);
+
+//   printf("%d ",arr[1][0]);
+//   printf("%d ",arr[1][1]);
+//   printf("%d ",arr[1][2]);
+//   printf("%d\n",arr[1][3]);
+
+//   printf("%d ",arr[2][0]);
+//   printf("%d ",arr[2][1]);
+//   printf("%d ",arr[2][2]);
+//   printf("%d ",arr[2][3]);
+    
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[3][4];
+
+//     arr[0][0] = 11; 
+//     arr[0][1] =  12; 
+//     arr[0][2] =  13;
+//     arr[0][3] =  14;
+//     arr[1][0] =15; 
+//     arr[1][1] = 16;
+//     arr[1][2] = 17;
+//     arr[1][3] = 18;
+//     arr[2][0] =  19;
+//     arr[2][1] = 20;
+//     arr[2][2] =21; 
+//     arr[2][3] = 22;
+
+// for(int row = 0; row < 3; row++){
+
+//     for(int col = 0; col < 4; col++){
+//         printf("%d ", arr[row][col]);
+//     }
+
+//     printf("\n");
+// }
+    
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+
+//     int arr[3][4];
+
+    
+
+// for(int row = 0; row < 3; row++){
+
+//     for(int col = 0; col < 4; col++){
+
+//         printf("Please enetr element in 2D array at %d row and %d col : ",row,col);
+
+//         scanf("%d",&arr[row][col]);
+//     }
+
+   
+// }
+
+
+// for(int row = 0; row < 3; row++){
+
+//     for(int col = 0; col < 4; col++){
+//         printf("%d ", arr[row][col]);
+//     }
+
+//     printf("\n");
+// }
+    
+// }
+
+
+// // https://docs.google.com/document/d/1EdnAWRnYCiop3nLRasQFaOxIlda-2AJRXxaq6WeGk88/edit?tab=t.0
+
+// // https://docs.google.com/document/d/1lZkDk2nkz46BMpoMpWqJAY3tCoYy6mTnEe69Jpuu9fk/edit?tab=t.0
+
+
+// #include<stdio.h>
+
+// int main(){
+
+//     int arr[10]= {10,20,30,40,50,60,70,80,90,100};
+
+//     int find = 30;
+
+//     int isPresent = 0;
+
+//     for(int i = 0; i < 10; i++){
+//         if(arr[i] == find){
+//             printf("Index : %d\n", i);
+//             isPresent = 1;
+//             break;
+//         }
+//     }
+
+//     if(isPresent){
+//         printf("Element is Present! ");
+//     }else{
+//         printf("Element is not Present!");
+//     }
+
+// }
+
+
+
+
+#include<stdio.h>
+
+int main(){
+
+    int arr[11]= {10,20,30,40,50,60,70,80,90,100};
+
+    int position = 3;
+
+    int value = 3000;
+
+    for(int i = 10; i >= position; i--){
+      
+      arr[i] = arr[i-1];
+
+      if(i == position){
+        break;
+      }
+         
+    }
+
+    arr[position] = value;
+
+
+    for(int i = 0; i < 11; i++){
+        printf("%d ",arr[i]);
+    }
+
+}
