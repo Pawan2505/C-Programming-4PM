@@ -1341,31 +1341,142 @@
 
 
 
-#include<stdio.h>
+// #include<stdio.h>
 
+// int main(){
+
+//     int arr[11]= {10,20,30,40,50,60,70,80,90,100};
+
+//     int position = 3;
+
+//     int value = 3000;
+
+//     for(int i = 10; i >= position; i--){
+      
+//       arr[i] = arr[i-1];
+
+//       if(i == position){
+//         break;
+//       }
+         
+//     }
+
+//     arr[position] = value;
+
+
+//     for(int i = 0; i < 11; i++){
+//         printf("%d ",arr[i]);
+//     }
+
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//   // ASCII value of number
+
+//   // char ch = '8';
+
+//   // printf("ASCII of 8 : %d",ch);
+
+//   // char ch = 'Z';
+
+//   // printf("ASCII of Z : %d",ch);
+//   // char ch = 'z';
+
+//   // printf("ASCII of z : %d",ch);
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//   char name[6] = "Pawan\0";
+
+//   printf("%s\n",name);
+
+//   printf("%c\n",name[0]);
+//   printf("%c\n",name[1]);
+//   printf("%c\n",name[2]);
+//   printf("%c\n",name[3]);
+//   printf("%c\n",name[4]);
+
+//   name[0] = 'R';
+
+//   printf("%s\n",name);
+
+//   for(int i = 0; i < 6; i++){
+//     printf("%c ",name[i]);
+//   }
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//   char name[] = {'P','a','w','a','n','\0'};
+
+  
+//   for(int i = 0; i < 6; i++){
+//     printf("%c",name[i]);
+//   }
+
+
+// }
+
+// #include<stdio.h>
+// int main(){
+
+//   char name[6];
+
+  
+//   for(int i = 0; i < 6; i++){
+//     printf("Please insert char at %d index ",i);
+//     scanf("%s",&name[i]);
+//   }
+  
+//   for(int i = 0; i < 6; i++){
+//     printf("%c",name[i]);
+//   }
+
+
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//   char name[13];
+
+
+// scanf("%[^\n]c",&name);
+  
+
+//   printf("%s",name);
+
+
+// }
+
+
+// #include<stdio.h>
+// int main(){
+
+//   char ch;
+
+//   ch = getchar();
+
+//   putchar(ch);
+// }
+
+
+#include<stdio.h>
 int main(){
 
-    int arr[11]= {10,20,30,40,50,60,70,80,90,100};
+  char ch[13];
 
-    int position = 3;
+  gets(ch);
 
-    int value = 3000;
-
-    for(int i = 10; i >= position; i--){
-      
-      arr[i] = arr[i-1];
-
-      if(i == position){
-        break;
-      }
-         
-    }
-
-    arr[position] = value;
-
-
-    for(int i = 0; i < 11; i++){
-        printf("%d ",arr[i]);
-    }
-
+  puts(ch);
 }
+
+// https://docs.google.com/document/d/1OzecS4Rhtt2RkFM9tTIn929jkNZ4s92PlZdacwsYpxg/edit?tab=t.0
